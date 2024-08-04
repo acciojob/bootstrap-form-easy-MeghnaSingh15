@@ -13,7 +13,7 @@
 	<form>
   <div class="row">
 	  <div class="col">
-    <label for="first-name-input" class="form-label">First name</label>
+    <label for="first-name-input" class="form-label">First Name</label>
     <input type="text" class="form-control is-invalid" id="first-name-input" required>
     <div class="invalid-feedback">
       First name required
@@ -29,7 +29,7 @@
   <div class="col">
     <label for="email-input" class="form-label">Email Address</label>
     <div class="input-group has-validation">
-      <input type="text" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <input type="email" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
       <div id="email-inputFeedback" class="invalid-feedback">
         Email required
       </div>
@@ -44,8 +44,8 @@
     </div>
   </div>
   <div class="col">
-    <label for="validationServer04" class="form-label">Graduation Year</label>
-    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+    <label for="grad-year-select" class="form-label">Graduation Year</label>
+    <select class="form-select is-invalid" id="grad-year-select" aria-describedby="grad-year-selectFeedback" required>
       <option selected disabled value="">Choose...</option>
   <option value="1">2020</option>
   <option value="2">2021</option>
@@ -53,7 +53,7 @@
   <option value="3">2023</option>
 </option>
     </select>
-    <div id="validationServer04Feedback" class="invalid-feedback">
+    <div id="grad-year-selectFeedback" class="invalid-feedback">
       Please select a valid Graduation Year
     </div>
   </div>
